@@ -3,6 +3,7 @@ footer{
     gap: 50px;
     padding: 30px;
     justify-content: center;
+    flex-wrap: wrap;
 
 }
 span{
@@ -32,11 +33,11 @@ hr{
 .navbar {
     display: flex;
     flex-wrap: wrap;
-    justify-content:flex-start;
+    justify-content:space-between;
     padding-top: 20px;
     padding-left: 30px;
     list-style: none;
-    gap: 100px;
+    gap: 20px;
     width: 100%;
 }
 .navbar >div {
@@ -49,6 +50,7 @@ hr{
     padding-right: 25px;
     height: 30px;
     color: brown;
+    flex-wrap: wrap;
    
 }
 .nvb{

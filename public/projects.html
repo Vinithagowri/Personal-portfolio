@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My projects</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../style.css">
+    <style>
+        .projects{
+            display: flex;
+            flex-direction: column;
+            padding: 15px;
+            gap: 20 px;
+            justify-content: space-between;
+
+        }
+        .projects > li{
+            font-size: 20px;
+            list-style: none;
+            min-width: 50px;
+            margin-left: 30px;
+            color: rgb(87, 42, 42);
+            
+        }
+        .pro{
+            display: flex;
+            flex-direction: row;
+            flex-basis: 250px;
+            gap: 30px;
+            justify-content: space-evenly;
+            padding: 20px;
+            margin: 20px;
+            font-size: 15px;
+
+        }
+        img{
+            height: 300px;
+            width: 300px ;
+            border: 3px solid rgb(173, 105, 59);
+        }
+        .pro >div{
+            height:fit-content;
+            width: 400px;
+            padding: 10px;
+            border-radius: 25% ;
+
+        }
+        .projects >h2{
+            text-align: center;
+            text-decoration:wavy;
+            color: rgb(88, 41, 41);
+            font-weight: bold;
+        }
+        button{
+            margin: 5px;
+            border-radius: 10px;
+            padding: 5px;
+
+            background-color: rgb(204, 132, 132);
+        }
+        button >a{
+            color: antiquewhite;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="navbar">
+    
+                <p><a href="../index.html">Vinitha G</a></p>
+                
+                    <div>
+                        <li><a href="../index.html">About me</a></li>
+                        <li><a href="./skills.html">Skills</a></li>
+                        <li><a href="./projects.html">Projects</a></li>
+                        <li><a href="./resume.html">Resume</a></li>
+                        <li><a href="./contact.html">Contact me</a></li>
+                    </div>  
+            </div>
+        </nav>
+    </header>
+    <div class="projects">
+         
+            <h2>Some of my projects</h2>
+            <li>1.HealthConnect -- A cloud based doctor appointment streamline application</li>
+            <div class="pro">
+                
+                <div>
+                    <p>
+                    HealthConnect is a cloud-based application designed to simplify the process of managing doctor's appointments and health records.
+                    The application provides users with the ability to register, book appointments, and maintain their health records through an intuitive web interface.
+                    </p>
+                    <h4>Tech Stack</h4>
+                    <li> Front end--HTML,CSS,Javascript</li>
+                    <li> Back end--Flask </li>
+                    <li> DB--IBM-DB2</li>
+                    <button><a href="https://github.com/smartinternz02/SBSPS-Challenge-10311-HealthConnect-Streamlined-Doctors-Appointment-and-Health-Record-Management">Show Project</a></button>
+
+                </div>
+                <img src="../assets/images/Healthconnect.jpg" alt="pro1img">
+            </div>
+            <li>
+                2.Sentiment Analysis of Twitter Data: Exploring People's 
+                Opinions on Various Topics</li>
+            <div class="pro">
+                
+                <div>
+                    <p>The study employs the 
+                        Twitter API and Tweepy module of Python to extract tweets from the platform. The 
+                        extracted data is then converted into CSV format and subjected to standard preprocessing 
+                        techniques and using NumPy and Pandas are used to clean the data. Natural language 
+                        processing techniques are employed to perform sentiment analysis and determine the 
+                        average sentiment scores of the tweets.</p>
+                    <h4>Tech Stack</h4>
+                    <li>Machine learning</li>
+                    <li>Python</li>
+                    <li>Natural language processing</li>
+                    <li>Numpy,Pandas,Matplotlib,Twitter API</li>
+                    <button><a href="https://github.com/Vinithagowri/sentimental_analysis">Show Project</a></button>
+                </div>
+                <img src="../assets/images/twitter_1.jpg" alt="pro2img">
+            </div>
+            <li>3.Sentimental analysis for marketing</li>
+            <div class="pro">
+                
+                <div>
+                    <p>To conduct sentiment analysis on customer feedback for the purpose of gaining insights into competitor products.
+                        This analysis involves the utilization of customer reviews to quantify and comprehend customer sentiments and opinions regarding a brand and its product offerings.
+                        Employing this comprehensive approach allows us to unearth nuanced insights, effectively bridging the connection between customer sentiment and tangible sales outcomes.</p>
+                    <h4>Tech Stack</h4>
+                    <li>AI-Neural Networks</li>
+                    <li>Deep learning algorithms</li>
+                    <li>Python libraries for cleaning </li>
+                    <button><a href="https://github.com/Vinithagowri/Sentimental-analysis-for-marketing">Show project</a></button>
+                </div>
+                <img src="../assets/images/tweet_2.png" alt="pro3">
+            </div>
+
+
+    </div>
+    <hr>
+    <footer>
+        <div>
+            <span>Gmail</span>
+            <p>govindarajvinitha09@gmail.com</p>
+        </div>
+        <div>
+            <span>GitHub</span>
+            <p>https://github.com/Vinithagowri"</p>
+        </div>
+        <div>
+            <span>LinkedIn</span>
+            <p>https://www.linkedin.com/in/vinitha-g-684a95265/</p>
+        </div>
+        <p>© 2024 By Vinitha.</p>
+    </footer>
+</body>
+</html>
